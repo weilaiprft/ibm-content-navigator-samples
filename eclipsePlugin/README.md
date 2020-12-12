@@ -42,6 +42,10 @@ Use these instructions to help you get the plug-in up and running in Eclipse. It
    The reason is that the ant script is running in a different JVM than the eclipse workspace.
 
    Fix: In Ant build configuration, goto the JRE tab and change to use the same JRE as the workspace. this issue will be    resolved.
+   - in eclipse, right click buildTools.xml
+   - Run As -> Ant Build ... (note the ...)
+   - pick JRE tab
+   - check Run in the same JRE as the workspace
 
 6. In destination path,please unzip icnplugins.zip file,and get the com.ibm.ecm.icn.plugin.jar file 
 
